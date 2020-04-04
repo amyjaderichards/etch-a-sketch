@@ -1,3 +1,15 @@
+body{
+    background-image: url('bground.jpg');
+}
+
+h1 {
+    font-family: 'Press Start 2P', cursive;
+}
+
+h2 {
+    font-family: 'Source Code Pro', monospace;
+}
+
 #container {
     display: grid;
     grid-template-rows: repeat(16, 1fr);
@@ -16,24 +28,24 @@
 
 button {
     box-shadow: 0px 1px 0px 0px #fff6af;
-    background: linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+    background: linear-gradient(to bottom, #ffec64 2%, #669999 100%);
     background-color: orange;
     border-radius: 6px;
     border: 1px solid orange;
-    display: inline-block;
+    display: inline;
     cursor: pointer;
     color: #333;
     font-family: Arial;
     font-size: 15px;
     font-weight: bold;
-    padding: 6px 24px;
+    padding: 6px 20px;
     margin: 8px;
     text-decoration: none;
     text-shadow: 0px 1px 0px #fe6;
 }
 
 button:hover {
-    background: linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+    background: linear-gradient(to bottom, #669999 5%, #ffec64 100%);
     background-color: #ffab23;
 }
 
